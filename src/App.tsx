@@ -24,6 +24,7 @@ import { Routines } from './pages/Routines';
 import { Money } from './pages/Money';
 import { Jokes } from './pages/Jokes';
 import { FactualLearning } from './pages/FactualLearning';
+import { WhereAmIPrivacyPolicy } from './pages/WhereAmIPrivacyPolicy';
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
             <Route path="/routines" element={<Routines />} />
             <Route path="/money" element={<Money />} />
             <Route path="/jokes" element={<Jokes />} />
+            <Route path="/where-am-i/privacy-policy" element={<WhereAmIPrivacyPolicy />} />
           </Routes>
         </main>
       </div>

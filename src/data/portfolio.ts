@@ -174,6 +174,20 @@ export const portfolioItems: PortfolioItem[] = [
     }
   },
   {
+    id: 'where-am-i',
+    title: 'Where Am I',
+    shortDescription: 'Coming soon — details will be added shortly.',
+    description: 'Details about the Where Am I app will be added shortly.',
+    tags: ['Mobile App'],
+    features: [],
+    technicalDetails: {
+      architecture: [],
+      technologies: [],
+      challenges: [],
+      solutions: []
+    }
+  },
+  {
     id: 'software-projects',
     title: 'Software Development Projects',
     description: 'A collection of modern web applications built with React, TypeScript, and other cutting-edge technologies. These projects demonstrate my expertise in creating efficient, scalable solutions.',
