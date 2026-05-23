@@ -9,6 +9,7 @@ export interface PortfolioItem {
   tags: string[];
   link?: string;
   githubUrl?: string;
+  privacyPolicyUrl?: string;
   technicalDetails?: {
     architecture?: string[];
     technologies?: string[];

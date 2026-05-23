@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import { ExternalLink, Github, CheckCircle2, ArrowRight, Archive } from 'lucide-react';
+import { ExternalLink, Github, CheckCircle2, ArrowRight, Archive, ShieldCheck } from 'lucide-react';
 import { portfolioItems } from '../data/portfolio';
 
 function PortfolioCard({ item }: { item: typeof portfolioItems[0] }) {
@@ -228,6 +228,18 @@ function PortfolioDetail() {
             </a>
           )}
         </div>
+
+        {item.privacyPolicyUrl && (
+          <div className="mt-8 pt-8 border-t border-warm-200">
+            <Link
+              to={item.privacyPolicyUrl}
+              className="inline-flex items-center gap-2 text-warm-500 hover:text-warm-800 transition-colors text-sm"
+            >
+              <ShieldCheck size={16} />
+              <span>Privacy Policy</span>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

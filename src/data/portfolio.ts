@@ -180,6 +180,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Where Am I? is a personal time-tracking app built for iOS. Rather than passively tracking your GPS position, it puts you in control — you check in to a place when you arrive, and check out when you leave. The app logs every session and builds up a clear picture of how your time is distributed across the places that matter to you.\n\nThe idea is simple: most people have a rough sense of where they spend their time, but no real data to back it up. Where Am I? gives you that data, presented cleanly without the overhead of a full productivity suite.',
     tags: ['React Native', 'Expo', 'TypeScript', 'Supabase', 'iOS'],
     link: 'https://apps.apple.com/app/id6772089017',
+    privacyPolicyUrl: '/where-am-i/privacy-policy',
     features: [
       'One-tap check-in to any custom place, with automatic check-out from the previous location',
       'Real-time elapsed time display while a session is active',
