@@ -1,0 +1,47 @@
+## project files
+README.md
+
+## main website pages
+src/pages/About.tsx
+src/pages/Contact.tsx
+
+## charity
+# src/pages/CharityWork.tsx
+src/pages/PersecutedChristians.tsx
+
+## christian
+src/pages/Prayers.tsx
+src/pages/Scriptures.tsx
+
+## vision and planning
+#src/pages/Personal.tsx
+src/pages/Routines.tsx
+src/pages/Vision.tsx
+src/pages/PersonalPlanning.tsx
+
+## money
+src/pages/Money.tsx
+
+## space
+src/pages/Space.tsx
+
+## archive
+src/pages/Archive.tsx
+
+## jokes            
+src/pages/Jokes.tsx
+
+## heroes
+src/pagds/Heroes.tsx
+
+## learning
+# src/data/subjects/*
+# src/pages/FactualLearning.tsx
+# src/Components/Quiz.tsx
+src/pages/History.tsx
+
+## bookmarks
+src/pages/Links.tsx
+
+## wiki
+# src/pages/Wiki.tsx
